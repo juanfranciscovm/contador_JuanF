@@ -1,1 +1,1 @@
-export "package:contador_JuanF\lib\screens\home_screen.dart";
+export "package:contador_JuanF/screens/home_screen.dart";

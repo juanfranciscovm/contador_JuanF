@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:contador_JuanF\lib\routes\app_routes.dart";
+import "package:contador_JuanF/routes/app_routes.dart";
 
 void main() => runApp(const MyApp());
 
