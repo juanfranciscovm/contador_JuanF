@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:contador_JuanF\lib\routes\app_routes.dart";
 
 void main() => runApp(const MyApp());
 
@@ -9,10 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Material App Bar')),
-        body: const Center(child: Text('hola perres vergues')),
-      ),
+      routes: AppRoutes.routes,
+      initialRoute: AppRoutes.initialRoute,
     );
   }
 }
