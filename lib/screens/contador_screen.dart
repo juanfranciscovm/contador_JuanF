@@ -15,8 +15,10 @@ class _ContadorScreen extends State<ContadorScreen> {
   }
 
   void restar() {
-    valor--;
-    setState(() {});
+    if (valor > 0) {
+      valor--;
+      setState(() {});
+    }
   }
 
   void reset() {
