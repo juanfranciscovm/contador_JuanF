@@ -61,7 +61,8 @@ flutter:
   assets:
     - assets/
     - assets/images/snoopyPC.png
-    - assets/images/snoopyMAT.png
+    - assets/images/snoopyFLY.png
+    - assets/images/snoopyfondo.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

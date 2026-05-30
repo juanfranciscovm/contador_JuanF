@@ -12,13 +12,4 @@ class AppRoutes {
     "/contador": (BuildContext context) => const ContadorScreen(),
     "/datos_dev": (BuildContext context) => const DatosDevScreen(),
   };
-
-  static final menuOptions = <MenuOptions>[
-    MenuOptions(
-      route: "/contador",
-      name: "Contador",
-      icon: Icons.timer,
-      screen: const ContadorScreen(),
-    ),
-  ];
 }
